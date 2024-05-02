@@ -3,15 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum Vitae</title>
+  <title>Teamnine.jobs</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<h1>Teamnine.Jobs</h1>
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="jobs.html">Danh sách việc làm</a></li>
+    <li><a href="contact.html">Thông tin liên hệ</a></li>
+    <li><a href="profile.html">Hồ sơ người dùng</a></li>
+    <li><a href="#">  
+      <div class="apply-now">
+      <div class="container">
+          <form action="#">
+              <input type="text" placeholder="Vị trí ứng tuyển">
+              <button type="submit">Tìm kiếm</button>
+          </form>
+      </div>
+      </div>
+  </a></li>
+  </ul>
+</nav>
 <body>
   <style>
     body {
   font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-right: 25cm;
+  margin-top: 20px;
+}
+nav {
+  background-color: #000000;
+}
+
+.menu {
+  list-style-type: none;
+  margin-left: 5cm;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 5;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu li a:hover {
+  background-color: #000000;
+  margin-top: 2px;
+}
+.apply-now {
+    background-color: #000000;
+    padding: 0 0;
+    text-align: center;
+}
+.apply-now input[type="text"] {
+    padding: 4px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.apply-now button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin left: 20px;
   padding: 0;
 }
 
@@ -19,9 +97,7 @@
   width: 8
   margin: 50px auto;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  
 }
 
 .header {
@@ -43,7 +119,7 @@
 }
 
 .title {
-  color: #f11313;
+  color: #000000;
   font-size: 20px;
 }
 
@@ -52,19 +128,22 @@
 }
 
 h2 {
-  color: #981d1d;
+  color: #000000;
   border-bottom: 2px solid #ffffff;
   padding-bottom: 5px;
+  margin-left: 20px;
 }
 
 h3 {
-  color: #c92c2c;
+  color: #000000;
   margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 p {
-  color: #666;
+  color: #000000;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .experience {
